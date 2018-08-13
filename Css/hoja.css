@@ -1,3 +1,11 @@
 body{
     background-image: url("../Imágenes/Sin-título-1.jpg")
 }
+
+.Titulo1{
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    padding-left: 100px;
+    
+}
