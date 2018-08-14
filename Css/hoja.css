@@ -7,11 +7,11 @@ body{
     background-color: rgba(0, 255, 221, 0.5);
 } 
 
-.Titulo1{
+.textoGrande{
     font-family: cursive;
-    font-size: 50px;
+    font-size: 35px;
     color: white;
-    padding-left: 30px;
+    padding-left: 10px;
     
 }
 
@@ -22,6 +22,24 @@ body{
 .Perro{
     width: 65%;
     height: 65%;
-    padding: 50px; 
 
+}
+
+.Nav{
+    float: right;
+    font-family: cursive;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    
+}
+
+.Social{
+    float: right;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    
 }
