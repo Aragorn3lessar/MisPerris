@@ -1,11 +1,27 @@
 body{
     background-image: url("../Imágenes/Sin-título-1.jpg")
+    
 }
+
+#myHeader {
+    background-color: rgba(0, 255, 221, 0.5);
+} 
 
 .Titulo1{
     font-family: cursive;
     font-size: 50px;
     color: white;
-    padding-left: 100px;
+    padding-left: 30px;
     
+}
+
+.Logo{
+    padding-top: 10px;
+}
+
+.Perro{
+    width: 65%;
+    height: 65%;
+    padding: 50px; 
+
 }
