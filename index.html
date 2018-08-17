@@ -10,34 +10,124 @@
     <script src="main.js"></script>
 </head>
 <body>
-        <!-- HEADER -->
 
-        <h1 id="myHeader"><img class='Logo' src="Imágenes/logo.png" alt="Logo">
+    
+    
+        <!-- HEADER -->
+        
+        <div class='Container'>
+            <div class="header" id="myHeader">
+            <img class='Logo' src="Imágenes/logo.png" alt="Logo">
             <nav>
-                    <a class="Nav" href="">Contacto</a>
-                    <a class="Nav" href="">Servicios</a>
-                    <a class="Nav" href="">Quiénes Somos</a>
-                    <a class="Nav" href="">Inicio</a>
+                    <a class="Nav" href="#">Contacto</a>
+                    <a class="Nav" href="#">Servicios</a>
+                    <a class="Nav" href="#">Quiénes Somos</a>
+                    <a class="Nav" href="#">Inicio</a>
                     
                 </nav>
-            </h1>
+            </div>
         
 
         <!-- CENTER -->
-    
-        <center><img class='Perro' src="Imágenes/perro.png" alt="Perro"></center>
+        
+        <div class="content">
+        <section class="main_articles">
+        <article>
+        
+           <div class="imgbox">
+            <img class='Perro' src="Imágenes/perro.png" alt="Perro">
+           
+
+        <!-- TEXT -->
+           <table>
+            <tr>
+                <td class="textoGrande">
+                    <div>+ 56 9 987654321</div> 
+                </td> 
+                <td class="textoGrande">
+                        <b>Rescate y Adopción de Perros Callejeros</b>   
+                </td>
+            </tr>   
+           
 
         <!-- SOCIAL -->
 
-        <img class='Social' src="Imágenes/mail.png" alt="Mail">
-        <img class='Social' src="Imágenes/insta.png" alt="Instagram">
-        <img class='Social' src="Imágenes/g.png" alt="Google Plus">
-        <img class='Social' src="Imágenes/fb.png" alt="Facebook">
+            <div>
+             <img class='Social' src="Imágenes/mail.png" alt="Mail">
+             <img class='Social' src="Imágenes/insta.png" alt="Instagram">
+             <img class='Social' src="Imágenes/g.png" alt="Google Plus">
+             <img class='Social' src="Imágenes/fb.png" alt="Facebook">
+            </div>
+          </div>
+        </table>
+        </div>
+        </section>
+        </article>
+    </div>
 
-        <!-- TEXT -->
-        <p class='textoGrande'>+56 9 987654321</p>
-        <center><p class='textoGrande'>Rescate y Adopción de Perros callejeros.</p></center>
+    <!-- CONTENIDO DE ABAJO-->
 
+    <div class="content">
+        <section class="main_articles">
+                <div class="content-left">
+
+                    <h3>
+                        <p>                                   
+                            <font face="courier new" class="bold1">RESCATE</font>
+                            <font color = "grey" face="courier new" class="greyText">ETAPA UNO</font>
+                        </p>
+
+                        <h3>_____</h3> 
+
+                        <p>
+                             Rescatamos perros en situación de peligro y/o abandono. Los rehabilitamos y los preparamos para buscarles un hogar.
+                        </p>
+                        
+                    </h3>
+                        
+                         <img src="Imágenes/rescate.jpg" class="img-rescate" >
+                         
+                     </div>
+     
+                     <div class="content-right">
+                        <img src="Imágenes/crowfunding.jpg" class="img-comida" alt="">
+                        <h3>
+                                <font face="courier new" class="bold" >CROWDFUNDING</font>
+                                <font color = "grey" face="courier new" class="greyTextRight" >FINANCIAMIENTO</font>
+                        </h3>
+
+                        <h3>_____</h3>
+
+                        <p>
+                            Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos para obtener el financiamiento para seguir ayudando.
+                        </p>
+
+                        <h3>
+                         <button class="button"  type="button" onclick="alert('*Campañas*')">CAMPAÑAS</button>   
+                        </h3>
+                        
+
+
+                     </div>
+        </section>
+        
+    </div>
+
+
+    <!-- SCRIPT STICKY-->
+<script>
+window.onscroll = function() {myFunction()};
+            
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+            
+function myFunction() {
+if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+} else {
+     header.classList.remove("sticky");
+}
+}</script>
 
 </body>
 

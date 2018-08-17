@@ -1,34 +1,73 @@
-body{
-    background-image: url("../Imágenes/Sin-título-1.jpg")
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
     
 }
 
-#myHeader {
-    background-color: rgba(0, 255, 221, 0.5);
+.Container {
+    width: 100%;
+    min-width: 500px;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    background-color: #fff;
+}
+
+.imgbox {
+    width: 100%;
+    display: grid;
+    height: 50%;
+    padding-top: 150px;
+    background-color: rgb(75, 201, 157); 
+   }
+
+.header {
+    width: 100%;
+    height: 100px;
+    line-height: 10px;
+    background-color: seagreen;
 } 
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
 .textoGrande{
-    font-family: cursive;
-    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     color: white;
-    padding-left: 10px;
+    padding-left: 60px
     
+}
+
+table{
+    width: 100%;
 }
 
 .Logo{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .Perro{
-    width: 65%;
-    height: 65%;
+    max-width: 100%;
+    max-height: 55vh;
+    margin: auto;   
 
 }
 
 .Nav{
     float: right;
-    font-family: cursive;
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     padding: 5px;
     color: white;
     
@@ -36,10 +75,81 @@ body{
 
 .Social{
     float: right;
-    position: relative;
-    width: 35px;
-    height: 35px;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 50px;
+    width: 50px;
     border-radius: 50%;
     
+}
+
+.main_articles {
+    width: 100%;
+    float: left;
+    
+}
+
+.content-left
+{
+    margin-top: 3%;  
+    float: left;
+    
+    width: 50%;
+}
+
+.content-right
+{
+    margin-top: 3%;
+    float: right;
+    background: white;
+    width: 50%;
+}
+
+.content-left h3 
+{
+    float: right;
+    margin-left: 75%;
+    margin-right: 5%
+}
+    
+.content-left p 
+{
+    text-align: right;
+    width: 65%;
+    float: right;
+    margin-left: 60%;
+    margin-right: 5%
+}
+    
+.content-right p
+{
+    text-align: Left;
+    width: 65%;
+    float: Left;
+    margin-left: 5%;
+    margin-right: 60%
+}
+    
+.content-right h3
+{
+    float: left;
+    margin-left: 5%;
+    margin-right: 75%
+    
+}
+
+.img-comida{
+    
+    max-width: 100%;
+    max-height: 40vh;
+    margin: auto;  
+}
+.img-rescate 
+{ 
+    
+    max-width: 100%;
+    max-height: 50vh;
+    margin-left: 75%;
+    float: right; 
+    margin-right: 5%
 }
